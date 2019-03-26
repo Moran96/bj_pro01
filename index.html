@@ -1,0 +1,98 @@
+<!-- 声明文档类型 用以浏览器解析 -->
+<!DOCTYPE html>
+<html>
+	<!-- head定义html基本信息 -->
+	<head>
+		<!-- meta声明解码方式 -->
+		<meta charset="utf-8" />
+		
+		<title>百度一下，你就知道</title>
+		
+		<!-- 设置关键字 -->
+		<meta name="keywords" content="前端,html"/>
+		<meta name="description" content="我的第一个新手html描述页面"/>
+		
+	</head>
+	<body>
+		
+		<!-- 注释：command+/  -->
+		<!-- 补全标签tab键 -->
+		
+		<!-- 原生标签hx 
+		1. 样式存在差异 eg.字体大小font-size 
+		2. 语意之间存在差异，使用时应遵循规范 eg.h1一级标题
+		-->
+		<h1>标题1</h1>
+		<h2>标签2</h2>
+		<h3>标签3</h3>
+		
+		<!-- 容器(盒子) personal:树的分支节点 
+			块级容器-->
+		<div id="">
+			div容器
+		</div>
+		
+		<!-- 段落 -->
+		<p>段落</p>
+		
+		<!-- div标签和p标签可以相互嵌套，但是尽量遵循语义标准化，div为父节点 -->
+		<div id="">
+			<h3>h3标签</h3>
+			<p>p标签</p>
+		</div>
+		
+		<!-- emmment语法 
+			用于嵌套关系
+			tab键触发
+			div>p
+			p*10 
+			-->
+		<div>
+			<p></p>
+			<p></p>
+			<p></p>
+			<p></p>
+			<p></p>
+			<p></p>
+		</div>
+		
+		<!-- 块级元素：
+			1.独占一行
+		 -->
+		<!-- 行内元素：
+			1.共享一行，宽度由自身内容撑开
+		 -->
+		 <span>span标签</span>
+		 <span>s1111</span>
+		 <span>s2</span>
+		 <span>s3</span>
+		 <span>s4</span>
+		 <span>s5</span>
+		
+		<!-- 换行标签 直接闭合-->
+		<br>
+		<!-- 标签br hr均为块级元素 -->
+		<hr >
+		
+		<b>加粗 bold</b>
+		<!-- strong特殊场合加重语气 -->
+		<strong>加粗 strong</strong>
+		<i>斜体 italic</i>
+		<!-- em 加强语气 语义化 -->
+		<em>斜体 em</em>
+		<del>删除线</del>
+		<u>下划线鸡肋用CSS画</u>
+		
+		<!-- 标签可以添加属性 style样式 -->
+		<span style="color:red;">红色</span>
+		
+		<br>
+		
+		<!-- 上标 -->
+		<span> x<sup>2</sup> </span>
+		<!-- 下标 -->
+		<span> H<sub>2</sub>O </span>
+		
+		
+	</body>
+</html>

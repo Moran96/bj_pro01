@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Page Title</title>
+	</head>
+	<body>
+		<!-- 相对路径 -->
+		
+		<!-- src 引入的资源文件，接受一个文件路径 -->
+		<!-- 图片加载不出时 显示文本 -->
+		<img src="./img/002.jpg" alt="图片无法显示"  width="300">
+		
+		<!-- 绝对 -->
+		<img src="http://127.0.0.1:8850/bj_test0/img/001.jpg" width="300">
+		<img src="https://www.baidu.com/img/superlogo_c4d7df0a003d3db9b65e9ef0fe6da1ec.png?qua=high&where=super" >
+		
+		<!-- 行内元素特点：
+			1.宽度只能靠内容撑开，不可以自定义宽度
+			2.不会独占一行
+		 -->
+		 
+		 <!-- 置换元素(以图片元素为例)
+			1.不会独占一行
+			2.宽度可以自行设置
+		  -->
+		<br>
+		
+		<!-- a标签 用于跳转 行内元素-->
+		<!-- href 属性为目标地址(相对地址 或 绝对地址)
+			 内容为文本信息
+			 
+			 target属性
+				默认值为"_self",直接跳转
+				可设置为"_blank",在新的空白页面打开
+		-->
+		<a href="https://www.baidu.com" target="_blank">点我跳转百度</a>
+		
+	</body>
+</html>
